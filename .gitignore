@@ -1,3 +1,4 @@
 test.ipynb
 .ipynb_checkpoints
 secrets.toml
+__pycache__

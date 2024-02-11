@@ -17,6 +17,7 @@ def create_index(api_key, file_path):
         llm = ChatGoogleGenerativeAI(
             google_api_key=api_key,
             model="gemini-pro",
+            convert_system_message_to_human=True,
         )
 
         embeddings = GoogleGenerativeAIEmbeddings(

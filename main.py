@@ -104,4 +104,5 @@ try:
                 st.session_state.messages.append(message)
 except Exception as e:
     st.toast(e)
-    st.warning("Please paste the api key before uploading the file")
+# except ValidationError as e:
+#     st.warning("Please paste the api key before uploading the file")
